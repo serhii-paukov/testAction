@@ -10,7 +10,7 @@ jobs:
           ls
           pwd
       - name: Get Pokemon name
-        uses: ./
+        uses: ../
         id: pokemon
         with:
           pokemon_id: 150
