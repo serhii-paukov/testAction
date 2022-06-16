@@ -7,8 +7,8 @@ jobs:
     steps:
       - name: get were we are
         run: |
-        ls
-        pwd
+          ls
+          pwd
       - name: Get Pokemon name
         uses: ./
         id: pokemon
