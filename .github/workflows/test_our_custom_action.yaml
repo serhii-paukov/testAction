@@ -9,8 +9,12 @@ jobs:
         run: |
           ls
           pwd
+      
+      - name: checkout
+        uses: actions/checkout@v3
+        
       - name: Get Pokemon name
-        uses: ../
+        uses: ./
         id: pokemon
         with:
           pokemon_id: 150
